@@ -1,0 +1,273 @@
+<div class="notebook">
+
+<div class="nb-cell program" name="p1">
+/*
+important(gold).
+father(John, Simba).
+mother(Lila, Simba).
+
+% Dog Breeds:
+
+dog(Labrador).
+dog(German_Shepherd).
+dog(Golden_Retriever).
+dog(Great_Dane).
+dog(Beagle).
+
+% If A is a Dog, then A is an Animal.
+animal(A) :- dog(A).
+
+% Some statements telling relationships among professors, students and the courses.
+studies(Gina, ComputerScience). % Gina Studies Computer Science.
+studies(Jane, Physics).
+studies(Bob, Chemistry).
+
+teaches(Jack, ComputerScience). % Jack teaches Computer Science.
+teaches(Mark, Physics).
+teaches(Ed, Chemistry).
+professor(X, Y) :- teaches(X, C), studies(Y, C).
+
+% Male and Female Examples:
+male(Philip).
+male(Bob).
+male(Bill).
+male(Karl).
+male(Ross).
+
+female(Gina).
+female(Alice).
+female(Amy).
+
+*/
+
+parent(pam, bob).
+parent(tom, bob).
+
+parent(tom, liz).
+
+parent(bob, ann).
+parent(bob, pat).
+parent(pat, jim).
+
+
+c2f(C, F) :- F is ((C * (9 / 5)) + 32 ). 
+
+f2c(F, C) :- C is ((F - 32) * 5/9). 
+
+max(X, Y, X) :- X &gt;= Y, !.
+max(X, Y, Y) :- X &lt; Y.
+
+min(X, Y, X) :- X =&lt; Y, !.
+min(X, Y, Y) :- X &gt; Y.
+</div>
+
+<div class="nb-cell query" name="q1">
+parent(X,bob).
+</div>
+
+<div class="nb-cell html" name="htm1">
+Query to ask who are bob's parents
+</div>
+
+<div class="nb-cell html" name="htm2">
+Query to ask whether tom is the parent of bob
+</div>
+
+<div class="nb-cell query" name="q2">
+parent(tom, bob).
+</div>
+
+<div class="nb-cell html" name="htm3">
+Query to count all the parents of bob
+</div>
+
+<div class="nb-cell query" name="q3">
+aggregate_all(count, (parent(X, bob)), Count).
+</div>
+
+<div class="nb-cell html" name="htm4">
+Query for getting all the parent child pairs
+</div>
+
+<div class="nb-cell query" name="q4">
+parent(X, Y).
+</div>
+
+<div class="nb-cell html" name="htm5">
+
+</div>
+
+<div class="nb-cell html" name="htm6">
+Grand parent relation as composition of two parents relation
+</div>
+
+<div class="nb-cell query" name="q5">
+parent(Y, jim), parent(X, Y), parent(Z, X).
+</div>
+
+<div class="nb-cell html" name="htm7">
+Get answer to the queries
+1. parent(jim, X).
+2. parent(X, jm).
+3. parent(pam, X), parent(X, pat).
+4. parent(pam, X), parent(X, Y), parent(Y, jim).
+</div>
+
+<div class="nb-cell query" name="q6">
+parent(jim, X).
+</div>
+
+<div class="nb-cell query" name="q7">
+parent(X, jim).
+</div>
+
+<div class="nb-cell query" name="q8">
+parent(pam, X), parent(X, pat).
+</div>
+
+<div class="nb-cell query" name="q9">
+parent(pam, X), parent(X, Y), parent(Y, jim).
+</div>
+
+<div class="nb-cell html" name="htm8">
+Formulate in Prolog the following questions about parent relation
+1. Who is Pat's parent?
+2. Does Liz have a child
+3. Who is ann's grandfather?
+4. Who is grandchild of tom?
+</div>
+
+<div class="nb-cell query" name="q10">
+parent(X, pat).
+</div>
+
+<div class="nb-cell query" name="q11">
+parent(liz, X).
+</div>
+
+<div class="nb-cell query" name="q12">
+parent(bob, ann), parent(X, bob).
+</div>
+
+<div class="nb-cell query" name="q13">
+parent(bob, X), parent(tom, bob).
+</div>
+
+<div class="nb-cell html" name="htm9">
+Unary relations
+</div>
+
+<div class="nb-cell program" name="p2">
+male(jim).
+male(tom).
+male(bob).
+male(patt).
+female(pam).
+female(liz).
+female(ann).
+</div>
+
+<div class="nb-cell query" name="q14">
+male(X).
+</div>
+
+<div class="nb-cell query" name="q15">
+female(X).
+</div>
+
+<div class="nb-cell program" name="p3">
+gender(pam, female).
+gender(tom, male).
+gender(bob, male).
+</div>
+
+<div class="nb-cell query" name="q16">
+gender(X, male).
+</div>
+
+<div class="nb-cell query" name="q17">
+gender(X, female).
+</div>
+
+<div class="nb-cell query" name="q18">
+gender(X, Y).
+</div>
+
+<div class="nb-cell html" name="htm10">
+Defining by rules
+Offspring relation, which is the inverse of Parent relation
+</div>
+
+<div class="nb-cell program" name="p4">
+parent(pam, bob).
+offspring(Y, X) :- parent(X, Y).
+</div>
+
+<div class="nb-cell query" name="q19">
+offspring(Y, pam).
+</div>
+
+<div class="nb-cell query" name="q20">
+offspring(bob, pam).
+</div>
+
+<div class="nb-cell program" name="p5">
+male(jim).
+male(tom).
+male(bob).
+female(pat).
+female(pam).
+female(liz).
+female(ann).
+parent(pam, bob).
+parent(tom, bob).
+
+parent(tom, liz).
+
+parent(bob, ann).
+parent(bob, pat).
+parent(pat, jim).
+
+mother(X, Y) :- parent(X, Y), female(X).
+father(X, Y) :- parent(X, Y), male(X).
+grandparent(X, Z) :- parent(X, Y), parent(Y, Z).
+sister(X, Y) :- parent(Z, X), parent(Z, Y), female(X).
+happy(X) :- parent(X, Y).
+hastwochildren(X) :- parent(X, Y), sister(Z, Y).
+</div>
+
+<div class="nb-cell query" name="q21">
+mother(pam, Y).
+</div>
+
+<div class="nb-cell query" name="q22">
+mother(X, Y).
+</div>
+
+<div class="nb-cell html" name="htm11">
+1. Formulate logic and prolog statement for grandparent relation.
+2. Formulate logic and prolog statement for sister relation.
+
+Translate the following statements into prolog rules:
+1. Everyone who has a child is happy.
+2. For all X, if X has a child who has a sister then X has two children
+(create a new relation hastwochildren)
+</div>
+
+<div class="nb-cell query" name="q23">
+grandparent(pam, X).
+</div>
+
+<div class="nb-cell query" name="q24">
+sister(liz, bob).
+</div>
+
+<div class="nb-cell query" name="q25">
+happy(bob).
+</div>
+
+<div class="nb-cell query" name="q26">
+hastwochildren(tom).
+</div>
+
+</div>
