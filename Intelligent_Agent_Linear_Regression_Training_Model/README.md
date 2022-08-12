@@ -32,7 +32,7 @@ coefficients (e.g., B0 and B1 in the above example).
 
 
 Output - 
-First CSV File
+First CSV File:
 ![image](https://user-images.githubusercontent.com/57552973/184404115-61170e4b-5404-4e02-8828-6f2860f06989.png)
 
 On Execution:
