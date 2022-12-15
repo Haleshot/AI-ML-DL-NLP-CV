@@ -20,3 +20,22 @@ Heuristic function is used in informed search to find the most promising path. I
 state of the agent as input and finds how close the agent is from the goal state. Does not always 
 give the best solution, but finds a good solution in a reasonable time. It is represented by ℎ(𝑛).
 
+
+A.4.2 Best First Search Algorithm
+Steps
+ 1. Start with OPEN list (Prioritized list) containing just initial state.
+ 2. Create a list called CLOSED (Visited list) i.e., initially empty. 
+ 3. If the OPEN list is empty search ends unsuccessfully. 
+ 4. Remove the first node on OPEN list and put this node on CLOSED list. 
+ 5. If this is a goal node, search ends successfully. 
+ 6. Generate successors of this node: 
+ For each successor :
+◼ (a). If it has not been discovered / generated before i.e., it is not on OPEN, 
+evaluate this node by applying the heuristic function, add it to the OPEN 
+and record its parent
+◼ (b). If it has been discovered / generated before, change the parent if the 
+new path is better than the previous one
+◼ In that case update the cost of getting to this node and to any successors 
+that this node may already have
+ 7. Reorder the list OPEN, according to the heuristic merit
+ 8. Go to step 3
