@@ -76,6 +76,8 @@ Close: (A,21), (B,14), (E,5), (Z,0)
 
 
 Output:
+
+
 ![image](https://user-images.githubusercontent.com/57552973/207904053-77fda6a1-dd01-4a12-b9b0-ad12787d5c8d.png)
 
 ![image](https://user-images.githubusercontent.com/57552973/207904113-9eb58a08-d739-4bcc-8aeb-adc706c670e4.png)
