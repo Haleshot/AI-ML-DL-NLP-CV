@@ -69,3 +69,8 @@ on each node is distance of the node from the goal node.
 
 Write the steps for implementing above problem in your notebooks
 Here start node is A and current node is Z
+
+
+Output:
+
+![image](https://user-images.githubusercontent.com/57552973/207906767-a7c1624a-eebb-4424-835f-5ed7dd0448b8.png)
