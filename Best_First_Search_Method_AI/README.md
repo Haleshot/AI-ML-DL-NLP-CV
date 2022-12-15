@@ -45,4 +45,5 @@ A.4.3 Example- Travel from “a” to “z”
 Here the number on the edges represent distance from one node to another. And number written 
 on each node is distance of the node from the goal node.
 
-image.png
+![image](https://user-images.githubusercontent.com/57552973/207903461-7eb33c0c-a0f0-4a19-8b64-a011cc481887.png)
+
