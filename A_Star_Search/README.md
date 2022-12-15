@@ -25,3 +25,46 @@ give the best solution, but finds a good solution in a reasonable time. It is re
 A.4.2 A* Algorithm
 It is the most common informed search algorithm. Uses the evaluation function
 
+𝑓(𝑛) = 𝑔(𝑛) + ℎ(𝑛)
+ Where g(n) is the path cost from the initial state to node 
+ h(n) is the estimated cost of the shortest path from to a goal state
+ f(n) = estimated cost of the best path that continues from n to a goal.
+Algorithm-
+• The implementation of A* Algorithm involves maintaining two lists- OPEN and 
+CLOSED
+
+• OPEN contains those nodes that have been evaluated by the heuristic function but have 
+not been expanded into successors yet.
+• CLOSED contains those nodes that have already been visited.
+Step-01:
+• Define a list OPEN.
+• Initially, OPEN consists solely of a single node, the start node S.
+Step-02:
+If the list is empty, return failure and exit.
+Step-03:
+• Remove node n with the smallest value of f(n) from OPEN and move it to list CLOSED.
+If node n is a goal state, return success and exit.
+Step-04:
+Expand node n.
+Step-05:
+• If any successor to n is the goal node, return success and the solution by tracing the path 
+from goal node to S.
+• Otherwise, go to Step-06.
+Step-06:
+For each successor node,
+• Apply the evaluation function f to the node.
+
+
+• If the node has not been in either list, add it to OPEN.
+Step-07:
+Go back to Step-02.
+A.4.3 Example- Travel from “a” to “z”
+Here the number on the edges represent distance from one node to another. And number written 
+on each node is distance of the node from the goal node.
+
+
+
+
+
+Write the steps for implementing above problem in your notebooks
+Here start node is A and current node is Z
