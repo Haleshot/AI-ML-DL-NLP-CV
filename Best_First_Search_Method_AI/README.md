@@ -40,3 +40,9 @@ that this node may already have
  7. Reorder the list OPEN, according to the heuristic merit
  8. Go to step 3
 
+
+A.4.3 Example- Travel from “a” to “z”
+Here the number on the edges represent distance from one node to another. And number written 
+on each node is distance of the node from the goal node.
+
+image.png
