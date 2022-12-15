@@ -72,3 +72,5 @@ Explore current node Z
 Check if current node Z= Goal node Z
 Open: (C,18), (D,18)
 Close: (A,21), (B,14), (E,5), (Z,0)
+
+
