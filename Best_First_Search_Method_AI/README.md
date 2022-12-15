@@ -46,6 +46,7 @@ Here the number on the edges represent distance from one node to another. And nu
 on each node is distance of the node from the goal node.
 
 
+![image](https://user-images.githubusercontent.com/57552973/207903823-cacbd80e-80fe-4ff8-b2a9-d269ab949a8a.png)
 
 
 
@@ -74,3 +75,13 @@ Open: (C,18), (D,18)
 Close: (A,21), (B,14), (E,5), (Z,0)
 
 
+
+
+Output:
+
+
+![image](https://user-images.githubusercontent.com/57552973/207904053-77fda6a1-dd01-4a12-b9b0-ad12787d5c8d.png)
+
+![image](https://user-images.githubusercontent.com/57552973/207904113-9eb58a08-d739-4bcc-8aeb-adc706c670e4.png)
+
+![image](https://user-images.githubusercontent.com/57552973/207904240-56b9cd48-eb16-44b3-a718-d8500f53c202.png)
