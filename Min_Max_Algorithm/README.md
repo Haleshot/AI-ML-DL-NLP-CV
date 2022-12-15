@@ -22,3 +22,4 @@ A.4.2 Min Max Algorithm
  Then backs up the minimax values through the tree as the recursion unwinds.
 
 
+![image](https://user-images.githubusercontent.com/57552973/207907446-fe6c8c8a-defa-4990-92a6-44729710cbe9.png)
