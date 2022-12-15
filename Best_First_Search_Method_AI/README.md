@@ -46,3 +46,29 @@ Here the number on the edges represent distance from one node to another. And nu
 on each node is distance of the node from the goal node.
 
 
+
+
+
+Steps for implementing above problem-Here start node is A and current node is Z
+Start node: A
+Open: (A,21)
+Close: ()
+Explore current node A
+Check if current node A= Goal node Z
+Open: (B,14), (C,18), (D,18)
+Close: (A,21)
+Current node= minDist(B,C,D)= B
+Explore current node B
+Check if current node B= Goal node Z
+Open: (E,5), (C,18), (D,18)
+Close: (A,21), (B,14)
+Current node= minDist(E,C,D)=E
+Explore current node E
+Check if current node E= Goal node Z
+Open: (Z,0), (C,18), (D,18)
+Close: (A,21), (B,14),(E,5)
+Current node= minDist(Z,C,D)=Z
+Explore current node Z
+Check if current node Z= Goal node Z
+Open: (C,18), (D,18)
+Close: (A,21), (B,14), (E,5), (Z,0)
