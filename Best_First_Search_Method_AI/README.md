@@ -46,6 +46,7 @@ Here the number on the edges represent distance from one node to another. And nu
 on each node is distance of the node from the goal node.
 
 
+![image](https://user-images.githubusercontent.com/57552973/207903823-cacbd80e-80fe-4ff8-b2a9-d269ab949a8a.png)
 
 
 
