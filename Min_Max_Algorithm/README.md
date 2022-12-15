@@ -23,3 +23,9 @@ A.4.2 Min Max Algorithm
 
 
 ![image](https://user-images.githubusercontent.com/57552973/207907446-fe6c8c8a-defa-4990-92a6-44729710cbe9.png)
+
+
+Output:
+
+
+![image](https://user-images.githubusercontent.com/57552973/207907616-77386805-d7a2-4ea9-b034-c185d8641666.png)
