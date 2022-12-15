@@ -39,3 +39,4 @@ new path is better than the previous one
 that this node may already have
  7. Reorder the list OPEN, according to the heuristic merit
  8. Go to step 3
+
