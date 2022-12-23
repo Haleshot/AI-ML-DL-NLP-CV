@@ -19,21 +19,15 @@ After completing this experiment, you will be able to-
 A.4
 Theory:
 A.4.1 Constraint Satisfaction Problem (CSP)
- CSP can be defined by set of three components- X,D,C
- X is set of variables {𝑋1
-, 𝑋2 … . 𝑋𝑛
-}
- D is a set of domains {𝐷1
-, 𝐷2
-, … 𝐷𝑛
-} for each variable
- C is a set of constraints that specify allowable combination of values
+1. CSP can be defined by set of three components- X,D,C
+2. X is set of variables {𝑋1, 𝑋2 … . 𝑋𝑛}
+3. D is a set of domains {𝐷1, 𝐷2, … 𝐷𝑛} for each variable
+4. C is a set of constraints that specify allowable combination of values
 
 
 
 A.4.2 Example-
- If 𝑋1 𝑎𝑛𝑑 𝑋2 have the same domain {1,2,3} then the constraint saying that 
-𝑋1 > 𝑋2 can be written as
+1. If 𝑋1 𝑎𝑛𝑑 𝑋2 have the same domain {1,2,3} then the constraint saying that 𝑋1 > 𝑋2 can be written as
 ◼ ⟨(𝑋1, 𝑋2), {(3,1), (3,2), (2,1)}⟩ or ⟨(𝑋1, 𝑋2), 𝑋1 > 𝑋2⟩
 
 
