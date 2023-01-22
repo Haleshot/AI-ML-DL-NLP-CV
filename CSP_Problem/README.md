@@ -36,7 +36,7 @@ a. Implement a Constraint Satisfaction Problem (CSP) in Python for the following
 b. For 4-Queen problem and Sudoku -
 i. Identify the variables in the above problem
 ii. Identify set of constraint variables
-iii. Identify domain each variable
+iii. Identify domain each variabl
 
 
 
