@@ -32,16 +32,18 @@ coefficients (e.g., B0 and B1 in the above example).
 
 
 Output - 
-First CSV File:
+## First CSV File:
+
+
 ![image](https://user-images.githubusercontent.com/57552973/184404115-61170e4b-5404-4e02-8828-6f2860f06989.png)
 
-On Execution:
+## On Execution:
 ![image](https://user-images.githubusercontent.com/57552973/184404147-d0e1360b-b81a-4a48-b2d2-0b32b6239855.png)
 
 
-Second CSV File:
+## Second CSV File:
 ![image](https://user-images.githubusercontent.com/57552973/184404191-7ba56831-59de-439a-a329-8d9b470aa1b4.png)
 
-On Execution:
+## On Execution:
 ![image](https://user-images.githubusercontent.com/57552973/184404211-33f5ad35-210c-4c51-b939-a9115f5cf6ea.png)
 
