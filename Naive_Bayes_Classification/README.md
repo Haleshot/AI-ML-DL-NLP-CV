@@ -64,9 +64,7 @@ Task 2: Operations on Adult.csv Dataset
 - Find out all the categorical columns from the dataset.
 - Check if null values exist in all the categorical columns.
 - Identify the problems with the "workclass," "Occupation," and "native_country" columns and rectify them.
-- Explore numeric columns and check for
-
- any null values.
+- Explore numeric columns and check for any null values.
 - Create a feature vector with x = all the columns except income and y = income.
 - Implement feature engineering for the train-test split dataset:
   - Check the data types of columns of the input features of the training dataset.
