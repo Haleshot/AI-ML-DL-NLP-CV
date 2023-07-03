@@ -48,7 +48,7 @@ For example, if X1 and X2 have the same domain {1, 2, 3}, and the constraint sta
 Here are two screenshots showcasing the output obtained from running the program:
 - One screenshot with the constraint py file.
 
-![Screenshot 1](https://user-images.githubusercontent.com/57552973/209365275-848115ff-d33b-4516-98cb-6528f521cf79.png)
+![With Constraint Screenshot](https://user-images.githubusercontent.com/57552973/209365275-848115ff-d33b-4516-98cb-6528f521cf79.png)
 - Another screenshot without the constraint py file.
-![Screenshot 2](https://user-images.githubusercontent.com/57552973/209365318-22501a53-ebab-4e04-b176-848413694c69.png)
+![Without Constraint Screenshot](https://user-images.githubusercontent.com/57552973/209365318-22501a53-ebab-4e04-b176-848413694c69.png)
 
