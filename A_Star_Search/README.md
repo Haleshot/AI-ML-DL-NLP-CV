@@ -7,7 +7,7 @@
 - [Theory](#theory)
   - [Heuristic function](#heuristic-function)
   - [A* Algorithm](#a-algorithm)
-  - [Example - Travel from "a" to "z"](#example-travel-from-a-to-z)
+  - [Example - Travel from "a" to "z"](#Example)
 
 ## Aim
 The aim of this project is:
@@ -47,7 +47,7 @@ The steps of the A* algorithm are as follows:
 7. If the node has not been in either list, add it to OPEN.
 8. Repeat from step 2.
 
-### Example - Travel from "a" to "z"
+### Example
 The graph represents a path from node "a" to node "z", where the numbers on the edges represent the distance between nodes and the numbers on each node represent the distance of the node from the goal node.
 
 ![Graph Travel Example](https://user-images.githubusercontent.com/57552973/207906432-79932d21-d7ca-434e-8a6a-e0cbc13ecd8f.png)
