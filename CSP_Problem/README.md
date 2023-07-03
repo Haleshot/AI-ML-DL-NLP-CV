@@ -1,67 +1,54 @@
-A.1
-Aim: 
-a. Implement a Constraint Satisfaction Problem (CSP) in Python for the following problem
-Find all (x,y) where x ∈ {1,2,3} and 0 <= y < 10, and x + y >= 5
-b. For 4-Queen problem and Sudoku -
-i. Identify the variables in the above problem
-ii. Identify set of constraint variables
-iii. Identify domain each variable
+# Constraint Satisfaction Problem (CSP)
 
-A.2
-Prerequisite: Basic understanding of constraint satisfaction problem
+## Table of Contents
+- [Aim](#aim)
+- [Prerequisite](#prerequisite)
+- [Learning Outcome](#learning-outcome)
+- [Theory](#theory)
+  - [Constraint Satisfaction Problem (CSP)](#constraint-satisfaction-problem-csp)
+  - [Example](#example)
+- [Task to be Completed](#task-to-be-completed)
+- [Output](#output)
 
-A.3
-Learning Outcome:
-After completing this experiment, you will be able to-
-1. Formulate a CSP
-2. Implement a small problem with constraints in Python
+## Aim
+The aim of this project is to implement a Constraint Satisfaction Problem (CSP) in Python for the following problem:
+1. Find all (x, y) pairs where x ∈ {1, 2, 3} and 0 <= y < 10, and x + y >= 5.
+2. Solve the 4-Queen problem and Sudoku.
 
-A.4
-Theory:
-A.4.1 Constraint Satisfaction Problem (CSP)
-1. CSP can be defined by set of three components- X,D,C
-2. X is set of variables {𝑋1, 𝑋2 … . 𝑋𝑛}
-3. D is a set of domains {𝐷1, 𝐷2, … 𝐷𝑛} for each variable
-4. C is a set of constraints that specify allowable combination of values
+## Prerequisite
+Basic understanding of constraint satisfaction problem is required to understand this project.
 
+## Learning Outcome
+After completing this experiment, you will be able to:
+1. Formulate a CSP.
+2. Implement a small problem with constraints in Python.
 
+## Theory
 
-A.4.2 Example-
-1. If 𝑋1 𝑎𝑛𝑑 𝑋2 have the same domain {1,2,3} then the constraint saying that 𝑋1 > 𝑋2 can be written as
-◼ ⟨(𝑋1, 𝑋2), {(3,1), (3,2), (2,1)}⟩ or ⟨(𝑋1, 𝑋2), 𝑋1 > 𝑋2⟩
+### Constraint Satisfaction Problem (CSP)
+A Constraint Satisfaction Problem (CSP) can be defined by a set of three components: X, D, and C.
+- X: Set of variables {X1, X2, ..., Xn}.
+- D: Set of domains {D1, D2, ..., Dn} for each variable.
+- C: Set of constraints that specify allowable combinations of values.
 
+### Example
+For example, if X1 and X2 have the same domain {1, 2, 3}, and the constraint states that X1 > X2, it can be written as:
+- ⟨(X1, X2), {(3, 1), (3, 2), (2, 1)}⟩ or ⟨(X1, X2), X1 > X2⟩.
 
-A.5 Task to be completed: 
-a. Implement a Constraint Satisfaction Problem (CSP) in Python for the following problem
-b. For 4-Queen problem and Sudoku -
-i. Identify the variables in the above problem
-ii. Identify set of constraint variables
-iii. Identify domain each variable
+## Task to be Completed
+1. Implement a Constraint Satisfaction Problem (CSP) in Python for the following problem:
+   - Find all (x, y) pairs where x ∈ {1, 2, 3} and 0 <= y < 10, and x + y >= 5.
+   - Solve the 4-Queen problem and Sudoku.
+2. For the 4-Queen problem and Sudoku:
+   - Identify the variables in the above problem.
+   - Identify the set of constraint variables.
+   - Identify the domain for each variable.
 
+## Output
+Here are two screenshots showcasing the output obtained from running the program:
+- One screenshot with the constraint py file.
 
+![Screenshot 1](https://user-images.githubusercontent.com/57552973/209365275-848115ff-d33b-4516-98cb-6528f521cf79.png)
+- Another screenshot without the constraint py file.
+![Screenshot 2](https://user-images.githubusercontent.com/57552973/209365318-22501a53-ebab-4e04-b176-848413694c69.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-Output for with constraint py file:
-
-
-![image](https://user-images.githubusercontent.com/57552973/209365275-848115ff-d33b-4516-98cb-6528f521cf79.png)
-
-
-
-
-Output for without constraint py file:
-
-
-
-![image](https://user-images.githubusercontent.com/57552973/209365318-22501a53-ebab-4e04-b176-848413694c69.png)
