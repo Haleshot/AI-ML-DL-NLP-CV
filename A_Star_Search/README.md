@@ -7,7 +7,7 @@
 - [Theory](#theory)
   - [Heuristic function](#heuristic-function)
   - [A* Algorithm](#a-algorithm)
-  - [Example - Travel from "a" to "z"](#example)
+  - [Example - Travel from "a" to "z"](#Example)
 
 ## Aim
 The aim of this project is:
