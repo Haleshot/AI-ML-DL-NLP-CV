@@ -9,7 +9,7 @@ This README file provides information on K-Means Clustering and its implementati
 4. [Part D: Implementing K-Means](#part-d)
 5. [Part E: Testing Different Values of K](#part-e)
 6. [Part F: Elbow Method for Determining Optimum Number of Clusters](#part-f)
-7. [Conclusion](#part-conclusion)
+7. [Conclusion](#conclusion)
 8. [Part G: Implementing K-Means on the Iris Dataset](#part-g)
 
 <a name="part-a"></a>
@@ -36,7 +36,7 @@ In this section, the K-Means algorithm is tested for different values of K. The 
 ## Part F: Elbow Method for Determining Optimum Number of Clusters
 The elbow method is applied to determine the optimum number of clusters for the dataset. The sum of squared distances from each point to its centroid is plotted against the number of clusters.
 
-<a name="part-conclusion"></a>
+<a name="conclusion"></a>
 ## Part Conclusion
 Based on the elbow curve, the optimum number of clusters is determined.
 
