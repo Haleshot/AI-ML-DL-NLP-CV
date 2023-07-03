@@ -68,9 +68,7 @@ Perform the following tasks on the given `Social_Network_Ads.csv` dataset:
 4. Identify the total number of classes in the output feature.
 5. Remove columns that are not useful for classification.
 6. Convert categorical columns into numeric columns.
-7.
-
- Apply scalar transformation.
+7. Apply scalar transformation.
 
 <a name="task-3"></a>
 ## Task 3: Implementing KNN Algorithm on Sklearn Dataset
