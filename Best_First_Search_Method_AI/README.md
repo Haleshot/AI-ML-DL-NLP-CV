@@ -61,9 +61,7 @@ Steps for implementing the above problem:
 - Explore current node E
 - Check if current node E = Goal node Z
 - OPEN: (Z, 0), (C, 18), (D, 18)
-- CLOSED: (A, 21
-
-), (B, 14), (E, 5)
+- CLOSED: (A, 21), (B, 14), (E, 5)
 - Current node = minDist(Z, C, D) = Z
 - Explore current node Z
 - Check if current node Z = Goal node Z
