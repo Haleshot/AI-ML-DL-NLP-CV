@@ -7,7 +7,7 @@
 - [Theory](#theory)
   - [Heuristic Function](#heuristic-function)
   - [Best First Search Algorithm](#best-first-search-algorithm)
-  - [Example - Travel from "a" to "z"](#example-travel-from-a-to-z)
+  - [Example - Travel from "a" to "z"](#Example)
 
 ## Aim
 The aim of this project is to find the shortest path from the starting node to a goal node using the Best First search algorithm implemented with Python.
@@ -39,7 +39,7 @@ The Best First search algorithm follows these steps:
 7. Reorder the OPEN list according to the heuristic merit.
 8. Go to step 3.
 
-### Example - Travel from "a" to "z"
+### Example
 In this example, the graph represents a path from node "a" to node "z", where the numbers on the edges represent the distance between nodes and the numbers on each node represent the distance of the node from the goal node.
 
 ![Graph Travel Example](https://user-images.githubusercontent.com/57552973/207903823-cacbd80e-80fe-4ff8-b2a9-d269ab949a8a.png)
