@@ -1,44 +1,43 @@
-Aim: 
-a. To develop a simple vacuum cleaner world with only two locations
-  i. Identify precepts and actions
-  ii. Comment on rationality of the agent
-b. To tabulate PEAS description for the following agents- Part picking robot, Satellite image analysis
+# Vacuum Cleaner World and PEAS Description
 
-An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that 
-environment through actuators. This simple idea is illustrated in figure below. The term percept is used to 
-refer to the agent’s perceptual inputs at any given instant. An agent’s percept sequence is the complete 
-history of everything the agent has ever perceived. Agent’s behaviour is
-described by the agent function that maps any given percept sequence to an action. Given an agent to 
-experiment with, we can, in principle, construct this table by trying out all possible percept sequences and 
-recording which actions the agent does in response. Internally, the agent function for an artificial agent will 
-be implemented by an agent program. The agent function is an abstract mathematical description; the agent 
-program is a concrete implementation, running within some physical system
+## Table of Contents
+- [Aim](#aim)
+- [Vacuum Cleaner World](#vacuum-cleaner-world)
+  - [Identifying Precepts and Actions](#identifying-precepts-and-actions)
+  - [Rationality of the Agent](#rationality-of-the-agent)
+- [PEAS Description](#peas-description)
+  - [Part Picking Robot](#part-picking-robot)
+  - [Satellite Image Analysis](#satellite-image-analysis)
+- [Output](#output)
 
-![image](https://user-images.githubusercontent.com/57552973/184404562-2467f597-f368-48c8-a916-fd99004657a3.png)
+## Aim
+The aim of this project is to develop a simple vacuum cleaner world with only two locations and to tabulate PEAS descriptions for two different agents: the Part Picking Robot and the Satellite Image Analysis agent.
 
+## Vacuum Cleaner World
+The vacuum cleaner world is a simple scenario where a vacuum agent operates in an environment with two locations, labeled A and B. The agent's goal is to clean up dirt in the locations.
 
-Simple example the vacuum-cleaner world shown in Figure. This world is so simple that we can describe 
-everything that happens; it’s also a made-up world, so we can invent many variations. This particular world 
-has just two locations: squares A and B. The vacuum agent perceives which square it is in and whether
-there is dirt in the square. It can choose to move left, move right, suck up the dirt, or do nothing. One very 
-simple agent function is the following: if the current square is dirty, then suck; otherwise, move to the other 
-square.
+### Identifying Precepts and Actions
+The agent perceives its environment through sensors, and its actions are performed through actuators. In the vacuum cleaner world, the agent's percepts include information about its current location and whether there is dirt in the location. The agent's actions include moving left, moving right, sucking up dirt, or doing nothing.
 
-![image](https://user-images.githubusercontent.com/57552973/184404600-ec77005e-8127-483f-ad17-d941cb098666.png)
+### Rationality of the Agent
+In the vacuum cleaner world, a simple agent function can be defined as follows: if the current location is dirty, then the agent should suck up the dirt; otherwise, it should move to the other location. This agent function is rational as it selects actions based on the current percept to achieve the goal of cleaning up the dirt.
 
+## PEAS Description
+PEAS stands for Performance measure, Environment, Actuators, and Sensors. It provides a framework to describe the key aspects of an intelligent agent.
 
-![image](https://user-images.githubusercontent.com/57552973/184404626-a44f78c5-510b-47fb-ba1f-c9bcf0654312.png)
+### Part Picking Robot
+- Performance measure: The performance measure for the Part Picking Robot can be the number of correctly picked parts within a given time frame.
+- Environment: The environment for the robot is a warehouse or manufacturing facility with shelves containing parts.
+- Actuators: The robot uses its mechanical arms to pick up parts and place them in designated locations.
+- Sensors: The robot's sensors detect the location of the parts, the state of the shelves, and any obstacles.
 
+### Satellite Image Analysis
+- Performance measure: The performance measure for the Satellite Image Analysis agent can be the accuracy of its analysis in identifying specific features or objects.
+- Environment: The environment for the agent is satellite imagery captured from space.
+- Actuators: The agent performs image processing and analysis algorithms to extract relevant information from the images.
+- Sensors: The agent's sensors receive satellite images as input for analysis.
 
-![image](https://user-images.githubusercontent.com/57552973/184404643-0fc10c95-fd60-4b0b-a85e-616f085a0947.png)
+## Output
+Here is a screenshot of the output obtained from running the program:
 
-![image](https://user-images.githubusercontent.com/57552973/184405019-c77a3611-3862-41e8-89fa-af5bd778e64e.png)
-
-
-
-
-Output:
-
-![image](https://user-images.githubusercontent.com/57552973/184404969-1e52aed3-0724-44bf-862d-e67a3f1de124.png)
-
-
+![Output](https://user-images.githubusercontent.com/57552973/184404969-1e52aed3-0724-44bf-862d-e67a3f1de124.png)
