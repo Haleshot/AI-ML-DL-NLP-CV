@@ -9,7 +9,7 @@ This README file provides information on K-Means Clustering and its implementati
 4. [Part D: Implementing K-Means](#part-d)
 5. [Part E: Testing Different Values of K](#part-e)
 6. [Part F: Elbow Method for Determining Optimum Number of Clusters](#part-f)
-7. [Part Conclusion](#part-conclusion)
+7. [Conclusion](#part-conclusion)
 8. [Part G: Implementing K-Means on the Iris Dataset](#part-g)
 
 <a name="part-a"></a>
