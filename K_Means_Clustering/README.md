@@ -37,7 +37,7 @@ In this section, the K-Means algorithm is tested for different values of K. The 
 The elbow method is applied to determine the optimum number of clusters for the dataset. The sum of squared distances from each point to its centroid is plotted against the number of clusters.
 
 <a name="conclusion"></a>
-## Part Conclusion
+## Conclusion
 Based on the elbow curve, the optimum number of clusters is determined.
 
 <a name="part-g"></a>
