@@ -60,9 +60,6 @@ The graph represents a path from node "a" to node "z", where the numbers on the 
 Feel free to check out the [repository](https://github.com/Haleshot/AI-ML/tree/master/A_Star_Search) for the code and more details.
 
 This project was implemented using the following tools and libraries:
-- Python language
-- [Library 1](link-to-library1)
-- [Library 2](link-to-library2)
-- ...
+- [Python language](https://www.python.org/)
 
 For more information, please refer to the repository linked above.
