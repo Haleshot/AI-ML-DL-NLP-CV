@@ -64,9 +64,7 @@ Perform the following tasks to implement simple linear regression with a dataset
 2. Explore the dataset using the `head()` and `describe()` functions.
 3. Repeat steps 2 to 6 from Task 2 using the dataset.
 4. Import `statsmodels.api`.
-5. Plot a scatter plot of SAT vs
-
-. GPA.
+5. Plot a scatter plot of SAT vs GPA.
 6. Convert SAT into a two-dimensional array.
 7. Use the `OLS` function from `statsmodels` to fit the training data to the model.
 8. Print the summary of the OLS regression model.
