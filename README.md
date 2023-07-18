@@ -21,3 +21,20 @@ This repository contains various programs related to Artificial Intelligence (AI
 | 15            | Prolog Stuff                                    | Implementing Prolog programs                       | Prolog                                          | [Prolog_Stuff](https://github.com/Haleshot/AI-ML/tree/master/Prolog_Stuff)                                       |
 | 16            | Support Vector Machines                         | Implementing Support Vector Machines (SVM)         | Python, Scikit-learn                           | [Support_Vector_Machines](https://github.com/Haleshot/AI-ML/tree/master/Support_Vector_Machines)                   |
 | 17            | Vacuum Cleaner Agent                            | Implementing a vacuum cleaner agent                | Python                                          | [Vacuum Cleaner Agent](https://github.com/Haleshot/AI-ML/tree/master/Vacuum%20Cleaner%20Agent)                     |
+
+
+## Usage
+
+Each program in this repository is designed to be run independently. To use a specific program, follow the instructions provided in its corresponding directory.
+
+## Contributing
+
+Contributions to this repository are welcome. If you would like to contribute or have suggestions for improvement, please create a pull request or submit an issue in the respective program's repository.
+
+## License
+
+This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT). Please see the individual program directories for more information on licensing for each program.
+
+## Contact
+
+If you have any questions or inquiries, feel free to contact the repository owner or contributor through their GitHub profiles listed in the respective program repositories.
