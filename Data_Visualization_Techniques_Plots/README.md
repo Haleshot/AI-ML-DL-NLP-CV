@@ -60,9 +60,7 @@ Perform the following tasks to explore data visualization techniques:
 Perform the following tasks to create different plots and analyze the dataset:
 
 2. Plot a scatter plot for Kernel Width vs Length and write your inference.
-3. Plot a joint plot to understand the relation between Perimeter and Compactness and write your
-
- inference.
+3. Plot a joint plot to understand the relation between Perimeter and Compactness and write your inference.
 4. Plot a scatter plot to compare Perimeter and Compactness with different types having different colors (use legend).
 5. Plot a box plot to understand the correlation between Compactness and Type.
 6. Plot box and strip plots to understand the correlation between Compactness and Type and state your inference.
