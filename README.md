@@ -1,6 +1,6 @@
 # AI-ML Repository
 
-This repository contains various programs related to Artificial Intelligence (AI) and Machine Learning (ML). Each program focuses on different aspects/approches of AI and ML techniques and provides a practical implementation.
+This repository contains various programs related to Artificial Intelligence (AI) and Machine Learning (ML). Each program focuses on different aspects/approches of AI and ML techniques and provides a practical implementation. More programs to be added soon...
 
 | Serial Number | Program Title                                   | Description                                          | Tools Used                                     | Repository Link                                                                                                 |
 |---------------|-------------------------------------------------|------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
