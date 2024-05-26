@@ -86,4 +86,5 @@ Perform the following tasks to create a multiple regression model on the 50 star
 1. Load the 50 startups dataset.
 2. Follow the steps mentioned in the theory for multiple linear regression to determine the best fitting model for this dataset.
 
-Note: Make sure to follow the instructions provided for each task and analyze the results accordingly to gain a better understanding of multiple linear regression.
+> [!NOTE]
+> Make sure to follow the instructions provided for each task and analyze the results accordingly to gain a better understanding of multiple linear regression.
