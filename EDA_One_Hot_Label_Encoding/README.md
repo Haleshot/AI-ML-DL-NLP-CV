@@ -56,9 +56,7 @@ Perform the following exploratory data analysis tasks on the car dataset:
 8. Display the first five rows for columns 2 to 4 (excluding row 5 and column 4).
 9. Display the info of the dataset and state your observations.
 10. Identify unique values for the columns "KM", "HP", and "Doors".
-11. Create a new data frame, replacing
-
- "???" with NaN.
+11. Create a new data frame, replacing "???" with NaN.
 12. Replace the categorical values in the "Doors" column with their corresponding numeric values.
 13. Convert the data types of columns "Doors", "MetColor", and "Automatic" to int and object.
 14. Identify the total number of null values in each column of the dataset.
