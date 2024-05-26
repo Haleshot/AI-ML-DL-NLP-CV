@@ -63,9 +63,7 @@ Perform the following tasks to fit different simple linear regression models for
 4. Determine and tabulate the values of R2, slope, and intercept for each model.
 5. Determine the predicted value of stock index price for an interest rate of 2.75.
 6. Determine the predicted value of stock index price for an unemployment rate of 6.
-7
-
-. Compare both models based on R2 and the mean square error between predicted and actual stock index price.
+7. Compare both models based on R2 and the mean square error between predicted and actual stock index price.
 
 <a name="task-3"></a>
 ## Task 3: Multiple regression model
