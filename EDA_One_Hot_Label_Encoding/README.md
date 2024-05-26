@@ -67,6 +67,3 @@ Perform the following exploratory data analysis tasks on the car dataset:
 <a name="task-2"></a>
 ## Task 2: One Hot and Label Encoding on "adults" Dataset
 Perform one hot encoding and label encoding on the relationship column of the "adults" dataset.
-
----
-Please follow the instructions above to perform the data exploration tasks using Pandas library.
