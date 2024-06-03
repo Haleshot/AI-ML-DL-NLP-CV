@@ -48,7 +48,3 @@ For further information and examples, refer to:
 - [Kaggle - Complete Guide to EDA on Text Data](https://www.kaggle.com/code/harshsingh2209/complete-guide-to-eda-on-text-data)
 - [Regenerative Today - Exploratory Data Analysis of Text Data including Visualization and Sentiment Analysis](https://regenerativetoday.com/exploratory-data-analysis-of-text-data-including-visualization-and-sentiment-analysis/)
 - [Jovian - EDA on Books Project](https://jovian.com/beekaysh/eda-on-books-project)
-
----
-
-This README provides an overview of exploratory data analysis of textual data, detailing the aim, prerequisites, outcomes, theory, tasks for PART B, and references without including any code snippets.
