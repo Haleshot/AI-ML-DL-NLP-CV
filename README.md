@@ -29,7 +29,8 @@ This repository contains various programs related to Artificial Intelligence (AI
 | 23            | CNN                            | Implementing CNN                | Python                                          | [CNN](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/CNN)                     |
 | 24            | Transfer Learning                            | Implementing Transfer Learning (VGG16)                | Python                                          | [Transfer Learning](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Transfer_Learning)                     |
 | 25            | Stock Prediction (LSTM)                            | Implementing Stock Prediction (LSTM)                | Python                                          | [Stock Prediction](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/LSTM)                     |
-| 26            | Text Preprocessing                            | Text preprocessing using nltk                | Python                                          | [Stock Prediction](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Text_preprocessing)                     |
+| 26            | Text Preprocessing                            | Text preprocessing using nltk                | Python                                          | [Text Preprocessing](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Text_preprocessing)                     |
+| 27            | Feature Engineering                            | Implementing Feature Engineering                | Python                                          | [Feature Engineering](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Feature_Engineering)                     |
 
 
 ## Usage
