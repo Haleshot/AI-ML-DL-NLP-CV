@@ -32,8 +32,9 @@ This repository contains various programs related to Artificial Intelligence (AI
 | 26            | Text Preprocessing                            | Text preprocessing using nltk                | Python                                          | [Text Preprocessing](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Text_preprocessing)                     |
 | 27            | Feature Engineering                            | Implementing Feature Engineering                | Python                                          | [Feature Engineering](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Feature_Engineering)                     |
 | 28            | Corpus Analyzing                            | Anaylzing Corpuses                | Python                                          | [Corpus analyzing](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Corpus_Analyzing)                     |
-| 29            | EDA Textual Data                            | Performing EDA (Textual Data)                | Python                                          | [EDA](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Corpus_Analyzing)                     |
-| 30            | Document Similarity                            | Document Similarity (word2vec and Glove)                | Python                                          | [EDA](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Corpus_Analyzing)                     |
+| 29            | EDA Textual Data                            | Performing EDA (Textual Data)                | Python                                          | [EDA](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/EDA_Textual_Data)                     |
+| 30            | Document Similarity                            | Document Similarity (word2vec and Glove)                | Python                                          | [EDA](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Document_Similarity)                     |
+| 31            | Information Extraction                            | Information Extraction (NER)                | Python                                          | [EDA](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Information_Extraction)                     |
 
 
 ## Usage
