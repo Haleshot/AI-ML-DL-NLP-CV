@@ -24,6 +24,7 @@ This repository contains various programs related to Artificial Intelligence (AI
 | 18            | Backpropogation                            | Implementing a Backpropogation through Network layers                | Python                                          | [Backpropogation](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Back_Propogation)                     |
 | 19            | Feed Forward Neural Network                            | Implementing a Feed Forward Neural Network                | Python                                          | [FeedForward Neural Network](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Feedforward_Neural_Network)                     |
 | 20            | Hyperparameter Tuning                            | Hyperparameter Tuning                | Python                                          | [Hyper Parameter Tuning](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Hyperparameter_Tuning)                     |
+| 21            | Deep Learning rate optimizer                            | Deep Learning rate optimizer                | Python                                          | [Deep Learning rate optimizer](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Deep_Learning_Rate_Pptimizers)                     |
 
 
 ## Usage
