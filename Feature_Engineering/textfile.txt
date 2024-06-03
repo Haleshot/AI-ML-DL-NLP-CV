@@ -1,0 +1,69 @@
+Medical:
+Hospital
+Emergency Room (ER)
+Intensive Care Unit (ICU)
+Operating Room (OR)
+Exam
+Diagnosis
+Prescription
+        
+Urine sample
+        
+Blood sample
+        
+Hypertension
+       
+Cast
+        
+Vein
+        
+Syringe
+        
+Painkiller/pain reliever
+       
+Numb
+        
+Dosage
+        
+Biopsy (of abnormal cells)
+
+
+
+Finance:
+
+
+1. Amortization: Amortization is a method of spreading an intangible asset's cost over the course of its useful life. Intangible assets are non-physical assets that are essential to a company, such as a trademark, patent, copyright, or franchise agreement.
+
+2. Assets: Assets are items you own that can provide future benefit to your business, such as cash, inventory, real estate, office equipment, or accounts receivable, which are payments due to a company by its customers. There are different types of assets, including:
+
+Current Assets: Which can be converted to cash within a year
+Fixed Assets: Which can’t immediately be turned into cash, but are tangible items that a company owns and uses to generate long-term income
+3. Asset Allocation: Asset allocation refers to how you choose to spread your money across different investment types, also known as asset classes. These include:
+
+Bonds: Bonds represent a form of borrowing. When you buy a bond, typically from the government or a corporation, you’re essentially lending them money. You receive periodic interest payments and get back the loaned amount at the time of the bond’s maturity—or the defined term at which the bond can be redeemed.
+Stocks: A stock is a share of ownership in a public or private company. When you buy stock in a company, you become a shareholder and can receive dividends—the company’s profits—if and when they are distributed.
+Cash and Cash Equivalents: This refers to any asset in the form of cash, or which can be converted to cash easily in the event it's necessary.
+4. Balance Sheet: A balance sheet is an important financial statement that communicates an organization’s worth, or “book value.” The balance sheet includes a tally of the organization’s assets, liabilities, and shareholders’ equity for a given reporting period.
+
+The Balance Sheet Equation: Balance sheets are arranged according to the following equation: Assets = Liabilities + Owners’ Equity
+5. Capital Gain: A capital gain is an increase in the value of an asset or investment above the price you initially paid for it. If you sell the asset for less than the original purchase price, that would be considered a capital loss.
+
+Related: 6 Ways Understanding Finance Can Help You Excel Professionally
+
+6. Capital Market: This is a market where buyers and sellers engage in the trade of financial assets, including stocks and bonds. Capital markets feature several participants, including:
+
+Companies: Firms that sell stocks and bonds to investors
+Institutional investors: Investors who purchase stocks and bonds on behalf of a large capital base
+Mutual funds: A mutual fund is an institutional investor that manages the investments of thousands of individuals
+Hedge funds: A hedge fund is another type of institutional investor, which controls risk through hedging—a process of buying one stock and then shorting a similar stock to make money from the difference in their relative performance
+7. Cash Flow: Cash flow refers to the net balance of cash moving in and out of a business at a specific point in time. Cash flow is commonly broken into three categories, including:
+
+Operating Cash Flow: The net cash generated from normal business operations
+Investing Cash Flow: The net cash generated from investing activities, such as securities investments and the purchase or sale of assets
+Financing Cash Flow: The net cash generated financing a business, including debt payments, shareholders’ equity, and dividend payments
+8. Cash Flow Statement: A cash flow statement is a financial statement prepared to provide a detailed analysis of what happened to a company’s cash during a given period of time. This document shows how the business generated and spent its cash by including an overview of cash flows from operating, investing, and financing activities during the reporting period.
+
+9. Compound Interest: This refers to “interest on interest.” Rather, when you’re investing or saving, compound interest is earned on the amount you deposited, plus any interest you’ve accumulated over time. While it can grow your savings, it can also increase your debt; compound interest is charged on the initial amount you were loaned, as well as the expenses added to your outstanding balance over time.
+
+10. Depreciation: Depreciation represents the decrease in an asset’s value. It’s a term commonly used in accounting and shows how much of an asset’s value a business has used over a period of time.
+Equity
