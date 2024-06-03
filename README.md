@@ -36,6 +36,7 @@ This repository contains various programs related to Artificial Intelligence (AI
 | 30            | Document Similarity                            | Document Similarity (word2vec and Glove)                | Python                                          | [Document Similarity](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Document_Similarity)                     |
 | 31            | Information Extraction                            | Information Extraction (NER)                | Python                                          | [Information Extraction](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Information_Extraction)                     |
 | 31            | Sentiment Analysis                            | Sentiment Analysis                | Python                                          | [Sentiment Analysis](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Sentiment_Analysis)                     |
+| 32            | Text Classification                            | Text Classification                | Python                                          | [Sentiment Analysis](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Text_Classification)                     |
 
 
 ## Usage
