@@ -26,6 +26,7 @@ This repository contains various programs related to Artificial Intelligence (AI
 | 20            | Hyperparameter Tuning                            | Hyperparameter Tuning                | Python                                          | [Hyper Parameter Tuning](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Hyperparameter_Tuning)                     |
 | 21            | Deep Learning rate optimizer                            | Deep Learning rate optimizer                | Python                                          | [Deep Learning rate optimizer](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Deep_Learning_Rate_Optimizers)                     |
 | 22            | Image Classification NN                            | Implementing image classification                | Python                                          | [Image Classification](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Image_Classification_NN)                     |
+| 23            | CNN                            | Implementing CNN                | Python                                          | [CNN](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/CNN)                     |
 
 
 ## Usage
