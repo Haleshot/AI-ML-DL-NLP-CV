@@ -23,7 +23,7 @@ This repository contains various programs related to Artificial Intelligence (AI
 | 17            | Vacuum Cleaner Agent                            | Implementing a vacuum cleaner agent                | Python                                          | [Vacuum Cleaner Agent](https://github.com/Haleshot/AI-ML/tree/master/Vacuum%20Cleaner%20Agent)                     |
 | 18            | Backpropogation                            | Implementing a Backpropogation through Network layers                | Python                                          | [Backpropogation](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Back_Propogation)                     |
 | 19            | Feed Forward Neural Network                            | Implementing a Feed Forward Neural Network                | Python                                          | [FeedForward Neural Network](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Feedforward_Neural_Network)                     |
-| 20            | Hyperparameter Tuning                            | Hyperparameter Tuning                | Python                                          | [FeedForward Neural Network](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Hyperparameter_Tuning)                     |
+| 20            | Hyperparameter Tuning                            | Hyperparameter Tuning                | Python                                          | [Hyper Parameter Tuning](https://github.com/Haleshot/AI-ML-DL-NLP-CV/tree/master/Hyperparameter_Tuning)                     |
 
 
 ## Usage
