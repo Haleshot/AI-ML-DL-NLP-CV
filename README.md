@@ -41,7 +41,7 @@ This repository contains various programs related to Artificial Intelligence (AI
 
 ## Usage
 
-Each program in this repository is designed to be run independently. To use a specific program, follow the instructions provided in its corresponding directory.
+Each program in this repository is designed to be run independently. To use a specific program, follow the instructions provided in its corresponding directory (README).
 
 ## Contributing
 
