@@ -49,7 +49,7 @@ Contributions to this repository are welcome. If you would like to contribute or
 
 ## License
 
-This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT). Please see the individual program directories for more information on licensing for each program.
+This repository is licensed under the [MIT License](LICENSE.md). Please see the individual program directories for more information on licensing for each program.
 
 ## Contact
 
